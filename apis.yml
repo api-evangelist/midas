@@ -1,8 +1,16 @@
 aid: midas
 name: Midas
-description: 'Midas is a company surfaced as a portfolio company of creandum, hv-capital, qed-investors
-  and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: >-
+  Midas is an onchain asset-management protocol that brings institutional-grade
+  investment strategies onchain as tokenized real-world assets (RWAs). It issues
+  permissionless, fully-backed tokenized products — including tokenized US
+  Treasury bills (mTBILL), yield and basis strategies (mBASIS) and other
+  onchain investment products — that offer full transparency, instant liquidity
+  and native composability across DeFi. Investors mint and redeem Midas tokens
+  directly against the underlying assets, and the resulting ERC-20 tokens can be
+  used as collateral and as building blocks throughout the onchain economy.
+  Positioned as "the standard for onchain investment products," Midas surfaced
+  in the API Evangelist network as a fintech portfolio company for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/midas/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +20,32 @@ x-backed-by:
 - qed-investors
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://midas.app/graph.png
 tags:
 - Company
 - Fintech
+- RWA
+- Tokenization
+- DeFi
+- Onchain
+- Blockchain
+- Investment
+- Asset Management
+- Web3
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +53,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/midas-domain-security.yml
 - type: Website
   url: https://midas.app/
+- type: Documentation
+  url: https://docs.midas.app/
+- type: X
+  url: https://x.com/MidasRWA
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
